@@ -1,7 +1,19 @@
-h1 {
-  color: #fff;
+html {
+  font-family: Georgia, serif;
+  background-color: #fff;
 }
 
-p {
-  color: #fff;
+.banner-content {
+  background-color: #495562;
+  color: #efefef;
+}
+
+.button:hover {
+  background-color: transparent;
+  border-color: #97a49b;
+  color: #efefef;
+}
+
+img {
+  max-height: 500px;
 }
