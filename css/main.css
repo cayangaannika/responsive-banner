@@ -1,6 +1,6 @@
 html {
   font-family: Georgia, serif;
-  background-color: #efefef;
+  background-color: #fff;
 }
 
 .banner-content {
@@ -15,12 +15,22 @@ html {
   color: #efefef;
 }
 
-.banner {
-  max-height: 500px;
+img {
+  background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 60em) {
 
+  .banner {
+    max-height: 500px;
+    position: relative;
+  }
 
+  .banner-content {
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+    position: absolute;
+    bottom: 0;
+    background-color: transparent;
+  }
 
 }
